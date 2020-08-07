@@ -1,13 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-
-<title>Ryan Torchia's Personal Site</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>RT Portfolio</title>
 </head>
-
 <body>
-​<p>Hello World<p>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1>Ryan Torchia</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Languages</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Ryan <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Languages</h1>
+        <p>I am new to the world of programming, and at the completion of the introductory courses through Tech Talent South I will have a fundamental understanding of four programming languages.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/java_logo.png" alt="img"></div>
+          <h2>Java</h2>
+          <p>Completed a 6.5 week full-time code immersion course in Java as of 8/11/2020.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/html_logo.png" alt="img"></div>
+          <h2>HTML</h2>
+          <p>Introductory understanding of HTML offered through various courses, mostly self-taught.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/python_logo.png" alt="img"></div>
+          <h2>Python</h2>
+          <p>Utilized Python for Data Science and completed an 8 week course through TTS.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/css_logo.png" alt="img"></div>
+          <h2>CSS</h2>
+          <p>Like HTML, I am mostly self-taught in CSS. Picked up on an ad hoc basis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Future <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project TBD</h1>
+            <h2></h2>
+            <p>To be updated with future projects and ventures outside of course material. Stay Tuned!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-3.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Fresher Web Developer</h2>
+        <p>Although I am new to web development, I am learning fast and having fun while doing it! I graduated from the State University of New York at Geneseo with a B.A. in Economics and a minor in Mathematics in May 2020. I am excited about learning new things and I am just getting started!</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  
+  <script src="./app.js"></script>
 </body>
 </html>

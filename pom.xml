@@ -69,22 +69,7 @@
 			</plugin>
 		</plugins>
 	</build>
-<projectDescription>
-	<name>FP</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.wst.validation.validationbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
-	</natures>
-</projectDescription>
+
 	
 
 </project>
